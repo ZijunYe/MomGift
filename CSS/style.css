@@ -287,148 +287,6 @@ html,body{
 	background: url("../image/p2_bg.jpg") no-repeat center center;
 	background-size: 100%;
 }
-#page2 >.p2_circle{
-	position: absolute;
-	top:0;
-	right: 0;
-	left: 0;
-	bottom: 0;
-	margin: auto;
-	background: url("../image/p2_circle_outer.png") no-repeat center center;
-	background-size: 100%;
-	width:59.375vw;
-	height:59.375vw;
-	border-radius: 50%;
-
-	-webkit-animation: p2_circle_outer 1s linear 2s infinite;
-	-o-animation: p2_circle_outer 1s linear 2s infinite;
-	animation: p2_circle_outer 1s linear 2s infinite;
-}
-
-@keyframes p2_circle_outer{
-	0%{
-		-webkit-transform: rotate(0deg);
-		-ms--transform: rotate(0deg);
-		-o-transform: rotate(0deg);
-		transform: rotate(0deg);
-	}
-	100%{
-		-webkit-transform: rotate(-360deg);
-		-ms--transform: rotate(-360deg);
-		-o-transform: rotate(-360deg);
-		transform: rotate(-360deg);
-	}
-}
-@-webkit-keyframes p2_circle_outer{
-	0%{
-		-webkit-transform: rotate(0deg);
-		-ms--transform: rotate(0deg);
-		-o-transform: rotate(0deg);
-		transform: rotate(0deg);
-	}
-	100%{
-		-webkit-transform: rotate(-360deg);
-		-ms--transform: rotate(-360deg);
-		-o-transform: rotate(-360deg);
-		transform: rotate(-360deg);
-	}
-}
-
-#page2 >.p2_circle:before{
-	position: absolute;
-	top:0;
-	right: 0;
-	left: 0;
-	bottom: 0;
-	margin: auto;
-	content:"";
-	background: url("../image/p2_circle_middle.png") no-repeat center center;
-	background-size: 100%;
-	width:45.625vw;
-	height:45.625vw;
-	border-radius: 50%;
-
-	-webkit-animation: p2_circle_middle 1s linear 1.3s infinite;
-	-o-animation: p2_circle_middle 1s linear 1.3s infinite;
-	animation: p2_circle_middle 1s linear 1.3s infinite;
-}
-
-@keyframes p2_circle_middle{
-	0%{
-		-webkit-transform: rotate(0deg);
-		-ms--transform: rotate(0deg);
-		-o-transform: rotate(0deg);
-		transform: rotate(0deg);
-	}
-	100%{
-		-webkit-transform: rotate(-720deg);
-		-ms--transform: rotate(-720deg);
-		-o-transform: rotate(-720deg);
-		transform: rotate(-720deg);
-	}
-}
-@-webkit-keyframes p2_circle_middle{
-	0%{
-		-webkit-transform: rotate(0deg);
-		-ms--transform: rotate(0deg);
-		-o-transform: rotate(0deg);
-		transform: rotate(0deg);
-	}
-	100%{
-		-webkit-transform: rotate(-720deg);
-		-ms--transform: rotate(-720deg);
-		-o-transform: rotate(-720deg);
-		transform: rotate(-720deg);
-	}
-}
-
-
-#page2 >.p2_circle:after{
-	position: absolute;
-	top:0;
-	right: 0;
-	left: 0;
-	bottom: 0;
-	margin: auto;
-	content:"";
-	background: url("../image/p2_circle_inner.png") no-repeat center center;
-	background-size: 100%;
-	width:39.937vw;
-	height:39.937vw;
-	border-radius: 50%;
-
-	-webkit-animation: p2_circle_inner 1s linear 1s infinite;
-	-o-animation: p2_circle_inner 1s linear 1s infinite;
-	animation: p2_circle_inner 1s linear 1s infinite;
-}
-@keyframes p2_circle_inner{
-	0%{
-		-webkit-transform: rotate(0deg);
-		-ms--transform: rotate(0deg);
-		-o-transform: rotate(0deg);
-		transform: rotate(0deg);
-	}
-	100%{
-		-webkit-transform: rotate(-1080deg);
-		-ms--transform: rotate(-1080deg);
-		-o-transform: rotate(-1080deg);
-		transform: rotate(-1080deg);
-	}
-}
-@-webkit-keyframes p2_circle_inner{
-	0%{
-		-webkit-transform: rotate(0deg);
-		-ms--transform: rotate(0deg);
-		-o-transform: rotate(0deg);
-		transform: rotate(0deg);
-	}
-	100%{
-		-webkit-transform: rotate(-1080deg);
-		-ms--transform: rotate(-1080deg);
-		-o-transform: rotate(-1080deg);
-		transform: rotate(-1080deg);
-	}
-}
 #page2 > .p2_2016{
 	position: absolute;
 	top:0;
@@ -528,14 +386,14 @@ html,body{
 	bottom: 5vh;
 	left: 1vh;
 	border-radius: 50%;
-	background: url("../image/p3.png") no-repeat center center;
+	background: url("../image/p4.png") no-repeat center center;
 	background-size: 100%;
 
-	-webkit-animation: p3 4s linear infinite;
-	-o-animation: p3 4s linear infinite;
-	animation: p3 4s linear infinite;
+	-webkit-animation: p4 4s linear infinite;
+	-o-animation: p4 4s linear infinite;
+	animation: p4 4s linear infinite;
 }
-@keyframes p3{
+@keyframes p4{
 	0%{
 		-webkit-transform: rotate(0deg);
 		-ms--transform: rotate(0deg);
@@ -549,7 +407,7 @@ html,body{
 		transform: rotate(360deg);
 	}
 }
-@-webkit-keyframes p3{
+@-webkit-keyframes p4{
 	0%{
 		-webkit-transform: rotate(0deg);
 		-ms--transform: rotate(0deg);
