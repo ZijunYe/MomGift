@@ -65,10 +65,12 @@ window.onload=function(){
         page2.style.display="block";
         page3.style.display="block";
         page3.style.top="100%"
+        page4.style.display="block";
 
         setTimeout(function(){
             page2.setAttribute("class","page fadeOut");
             page3.setAttribute("class","page fadeIn");
+            page4.setAttribute("class","page fadeIn");
         },5500)
 
         
