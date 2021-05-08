@@ -287,18 +287,6 @@ html,body{
 	background: url("../image/p2_bg.jpg") no-repeat center center;
 	background-size: 100%;
 }
-#page2 > .p2_2016{
-	position: absolute;
-	top:0;
-	right: 0;
-	left: 0;
-	bottom: 0;
-	margin: auto;
-	background: url("../image/p2_2016.png") no-repeat center center;
-	background-size: 120%;
-	width:27.5vw;
-	height:6.24vh;
-}
 
 /*page3*/
 #page3{
