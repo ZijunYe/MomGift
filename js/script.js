@@ -38,19 +38,19 @@ window.onload=function(){
 		//music.style.webkianimationPlayState="paused";
 	},false)
 
-	//music.onclick=function(){//click有0.3秒的延迟
-	//	if(audio.paused){
-	//		audio.play();
-	//		this.setAttribute("class","play");
-	//		//music.style.animationPlayState="running";//兼容性比较差
-	//		//music.style.webkitanimationPlayState="running";//苹果兼容
-	//	}else{
-	//		audio.pause();
-	//		this.setAttribute("class","");
-	//		//this.style.animationPlayState="paused";
-	//		//this.style.webkitanimationPlayState="paused";
-	//	}
-	//}
+	music.onclick=function(){//click有0.3秒的延迟
+		if(audio.paused){
+			audio.play();
+			this.setAttribute("class","play");
+			//music.style.animationPlayState="running";//兼容性比较差
+			music.style.webkitanimationPlayState="running";//苹果兼容
+		}else{
+			audio.pause();
+			this.setAttribute("class","");
+			//this.style.animationPlayState="paused";
+		      this.style.webkitanimationPlayState="paused";
+		}
+	}
 	music.addEventListener("touchstart",function(event){
 		if(audio.paused){
 			audio.play();
