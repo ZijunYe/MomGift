@@ -328,9 +328,9 @@ html,body{
 	background: url("../image/p3.png") no-repeat center center;
 	background-size: 100%;
 
-	-webkit-animation: p3 4s linear infinite;
-	-o-animation: p3 4s linear infinite;
-	animation: p3 4s linear infinite;
+	-webkit-animation: p3 2s linear infinite;
+	-o-animation: p3 2s linear infinite;
+	animation: p3 2s linear infinite;
 }
 @keyframes p3{
 	0%{
