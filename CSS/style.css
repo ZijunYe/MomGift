@@ -459,7 +459,7 @@ html,body{
 	background-size: 100%;
 }
 
-#page3 > .p3_blessing{
+#page3 > .p3{
 	width:32vw;
 	height:32vw ;
 	position: absolute;
@@ -467,14 +467,14 @@ html,body{
 	bottom: 5vh;
 	left: 1vh;
 	border-radius: 50%;
-	background: url("../image/p3_blessing.png") no-repeat center center;
+	background: url("../image/p3.png") no-repeat center center;
 	background-size: 100%;
 
-	-webkit-animation: p3_blessing 4s linear infinite;
-	-o-animation: p3_blessing 4s linear infinite;
-	animation: p3_blessing 4s linear infinite;
+	-webkit-animation: p3 4s linear infinite;
+	-o-animation: p3 4s linear infinite;
+	animation: p3 4s linear infinite;
 }
-@keyframes p3_blessing{
+@keyframes p3{
 	0%{
 		-webkit-transform: rotate(0deg);
 		-ms--transform: rotate(0deg);
@@ -488,7 +488,7 @@ html,body{
 		transform: rotate(360deg);
 	}
 }
-@-webkit-keyframes p3_blessing{
+@-webkit-keyframes p3{
 	0%{
 		-webkit-transform: rotate(0deg);
 		-ms--transform: rotate(0deg);
@@ -502,3 +502,77 @@ html,body{
 		transform: rotate(360deg);
 	}
 }
+
+/*page3*/
+#page4{
+	display: none;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+#page4.fadeIn{
+	-webkit-transform: translate(0,-100%);
+	-ms--transform: translate(0,-100%);
+	-o-transform: translate(0,-100%);
+	transform: translate(0,-100%);
+}
+#page4 > .bg{
+	background: url("../image/p4_bg.jpg") no-repeat center center;
+	background-size: 100%;
+}
+
+#page4 > .p4{
+	width:32vw;
+	height:32vw ;
+	position: absolute;
+	right: 0;
+	bottom: 5vh;
+	left: 1vh;
+	border-radius: 50%;
+	background: url("../image/p3.png") no-repeat center center;
+	background-size: 100%;
+
+	-webkit-animation: p3 4s linear infinite;
+	-o-animation: p3 4s linear infinite;
+	animation: p3 4s linear infinite;
+}
+@keyframes p3{
+	0%{
+		-webkit-transform: rotate(0deg);
+		-ms--transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+		-ms--transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+@-webkit-keyframes p3{
+	0%{
+		-webkit-transform: rotate(0deg);
+		-ms--transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+		-ms--transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
