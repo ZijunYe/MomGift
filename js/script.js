@@ -16,7 +16,7 @@ window.onload=function(){
 	console.log("屏幕可用工作区宽度：" + window.screen.availWidth);
 
 	var music=document.getElementById("music");
-	var audio=document.getElementsByTagName("audio")[0];
+	var audio=document.getElementsByTagName("audio");
 	var n11=document.getElementById("n1");
 	var n12=document.getElementById("n2");
 	audio.volume = 0.6;
