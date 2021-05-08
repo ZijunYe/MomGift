@@ -470,9 +470,9 @@ html,body{
 	background: url("../image/p3_blessing.png") no-repeat center center;
 	background-size: 100%;
 
-	-webkit-animation: p3_blessing 4s linear infinite;
-	-o-animation: p3_blessing 4s linear infinite;
-	animation: p3_blessing 4s linear infinite;
+	-webkit-animation: p3_blessing 2s linear infinite;
+	-o-animation: p3_blessing 2s linear infinite;
+	animation: p3_blessing 2s linear infinite;
 }
 @keyframes p3_blessing{
 	0%{
