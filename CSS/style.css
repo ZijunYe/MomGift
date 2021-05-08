@@ -475,7 +475,7 @@ html,body{
 }
 
 #page3 > .bg{
-	background: url("../image/p3_bg.jpg") no-repeat center center;
+	background: url("./image/p3_bg.jpg") no-repeat center center;
 	background-size: 100%;
 }
 #page3 >.p3_circle{
@@ -646,7 +646,7 @@ html,body{
 	transform: translate(0,-100%);
 }
 #page4 > .bg{
-	background: url("../image/p4_bg.jpg") no-repeat center center;
+	background: url("./image/p4_bg.jpg") no-repeat center center;
 	background-size: 100%;
 }
 
